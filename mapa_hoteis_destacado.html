@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3fc3432dbcd9bab868422c7c5092c7c2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3fc3432dbcd9bab868422c7c5092c7c2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3fc3432dbcd9bab868422c7c5092c7c2 = L.map(
+                "map_3fc3432dbcd9bab868422c7c5092c7c2",
+                {
+                    center: [40.758, -73.9855],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0098eae8d6f7feb342b38ba5cde4012c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3fc3432dbcd9bab868422c7c5092c7c2);
+        
+    
+            var marker_568210742794f8c40c9bbc69a237f3d1 = L.marker(
+                [40.757, -73.9855],
+                {}
+            ).addTo(map_3fc3432dbcd9bab868422c7c5092c7c2);
+        
+    
+            var icon_9b67f95d39195ac9d8738e94a4395244 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_568210742794f8c40c9bbc69a237f3d1.setIcon(icon_9b67f95d39195ac9d8738e94a4395244);
+        
+    
+        var popup_347cc6458aeda2e90e9a80e7a59edfa0 = L.popup({"maxWidth": 250});
+
+        
+            var html_f91841b90114f7e1e693dd0b826c54bc = $(`<div id="html_f91841b90114f7e1e693dd0b826c54bc" style="width: 100.0%; height: 100.0%;"><b>Millennium Hotel Broadway Times Square</b><br><a href="cotacoes_hoteis.pdf" target="_blank">Ver cotação completa (PDF)</a></div>`)[0];
+            popup_347cc6458aeda2e90e9a80e7a59edfa0.setContent(html_f91841b90114f7e1e693dd0b826c54bc);
+        
+
+        marker_568210742794f8c40c9bbc69a237f3d1.bindPopup(popup_347cc6458aeda2e90e9a80e7a59edfa0)
+        ;
+
+        
+    
+    
+            marker_568210742794f8c40c9bbc69a237f3d1.bindTooltip(
+                `<div>
+                     Millennium Hotel Broadway Times Square – 4 estrelas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9f4e86bc1d8e5af3418ef7ab2d4355ce = L.marker(
+                [40.7229, -73.987],
+                {}
+            ).addTo(map_3fc3432dbcd9bab868422c7c5092c7c2);
+        
+    
+            var icon_ecb7b1b800fd04b67b15d8816fe87ea1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9f4e86bc1d8e5af3418ef7ab2d4355ce.setIcon(icon_ecb7b1b800fd04b67b15d8816fe87ea1);
+        
+    
+        var popup_f89380d8e8ed4bf817f430888900f183 = L.popup({"maxWidth": 250});
+
+        
+            var html_4edde1b1b668ecd3e71dfa55f67f19ce = $(`<div id="html_4edde1b1b668ecd3e71dfa55f67f19ce" style="width: 100.0%; height: 100.0%;"><b>The Ridge Hotel</b><br><a href="cotacoes_hoteis.pdf" target="_blank">Ver cotação completa (PDF)</a></div>`)[0];
+            popup_f89380d8e8ed4bf817f430888900f183.setContent(html_4edde1b1b668ecd3e71dfa55f67f19ce);
+        
+
+        marker_9f4e86bc1d8e5af3418ef7ab2d4355ce.bindPopup(popup_f89380d8e8ed4bf817f430888900f183)
+        ;
+
+        
+    
+    
+            marker_9f4e86bc1d8e5af3418ef7ab2d4355ce.bindTooltip(
+                `<div>
+                     The Ridge Hotel – 3 estrelas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae3cf6462c775e1c39b8301b77d6417a = L.marker(
+                [40.7388, -73.994],
+                {}
+            ).addTo(map_3fc3432dbcd9bab868422c7c5092c7c2);
+        
+    
+            var icon_2d3870f3728118960c649d85d37a9f98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ae3cf6462c775e1c39b8301b77d6417a.setIcon(icon_2d3870f3728118960c649d85d37a9f98);
+        
+    
+        var popup_b151adb1c624677373b1a1ae025a48ea = L.popup({"maxWidth": 250});
+
+        
+            var html_5d64e720037ca1dabeec15623e419836 = $(`<div id="html_5d64e720037ca1dabeec15623e419836" style="width: 100.0%; height: 100.0%;"><b>Chelsea Inn</b><br><a href="cotacoes_hoteis.pdf" target="_blank">Ver cotação completa (PDF)</a></div>`)[0];
+            popup_b151adb1c624677373b1a1ae025a48ea.setContent(html_5d64e720037ca1dabeec15623e419836);
+        
+
+        marker_ae3cf6462c775e1c39b8301b77d6417a.bindPopup(popup_b151adb1c624677373b1a1ae025a48ea)
+        ;
+
+        
+    
+    
+            marker_ae3cf6462c775e1c39b8301b77d6417a.bindTooltip(
+                `<div>
+                     Chelsea Inn – 3 estrelas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_922cb090e8f85abb3dee7651d7d2059f = L.marker(
+                [40.7542, -73.9916],
+                {}
+            ).addTo(map_3fc3432dbcd9bab868422c7c5092c7c2);
+        
+    
+            var icon_f02b4e53f8e522c2445d01e1e08b625b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_922cb090e8f85abb3dee7651d7d2059f.setIcon(icon_f02b4e53f8e522c2445d01e1e08b625b);
+        
+    
+        var popup_c1ea577130473372cd01256506f97601 = L.popup({"maxWidth": 250});
+
+        
+            var html_cc09c85c89d16558ed0f23a10ef7c794 = $(`<div id="html_cc09c85c89d16558ed0f23a10ef7c794" style="width: 100.0%; height: 100.0%;"><b>Doxie Hotel</b><br><a href="cotacoes_hoteis.pdf" target="_blank">Ver cotação completa (PDF)</a></div>`)[0];
+            popup_c1ea577130473372cd01256506f97601.setContent(html_cc09c85c89d16558ed0f23a10ef7c794);
+        
+
+        marker_922cb090e8f85abb3dee7651d7d2059f.bindPopup(popup_c1ea577130473372cd01256506f97601)
+        ;
+
+        
+    
+    
+            marker_922cb090e8f85abb3dee7651d7d2059f.bindTooltip(
+                `<div>
+                     Doxie Hotel – 2 estrelas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f7bba3f8cb34699a3cf26e5ac9bac78 = L.marker(
+                [40.7603, -73.9867],
+                {}
+            ).addTo(map_3fc3432dbcd9bab868422c7c5092c7c2);
+        
+    
+            var icon_6cbf28906d9d03cae66e230e6039414b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7f7bba3f8cb34699a3cf26e5ac9bac78.setIcon(icon_6cbf28906d9d03cae66e230e6039414b);
+        
+    
+        var popup_4517912fcd653557738b8020b7d4bf69 = L.popup({"maxWidth": 250});
+
+        
+            var html_c7ae668026e00111eaca8a66a75a9404 = $(`<div id="html_c7ae668026e00111eaca8a66a75a9404" style="width: 100.0%; height: 100.0%;"><b>The Gallivant Times Square</b><br><a href="cotacoes_hoteis.pdf" target="_blank">Ver cotação completa (PDF)</a></div>`)[0];
+            popup_4517912fcd653557738b8020b7d4bf69.setContent(html_c7ae668026e00111eaca8a66a75a9404);
+        
+
+        marker_7f7bba3f8cb34699a3cf26e5ac9bac78.bindPopup(popup_4517912fcd653557738b8020b7d4bf69)
+        ;
+
+        
+    
+    
+            marker_7f7bba3f8cb34699a3cf26e5ac9bac78.bindTooltip(
+                `<div>
+                     The Gallivant Times Square – 3.5 estrelas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_26946f8cbf8996edf6ed59cecdd5fe96 = L.marker(
+                [40.7494, -73.9763],
+                {}
+            ).addTo(map_3fc3432dbcd9bab868422c7c5092c7c2);
+        
+    
+            var icon_eac8a967b214be6ded1f0af06cc62ea6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_26946f8cbf8996edf6ed59cecdd5fe96.setIcon(icon_eac8a967b214be6ded1f0af06cc62ea6);
+        
+    
+        var popup_5728b2b447eaf8729ba4e3143a1d1c3b = L.popup({"maxWidth": 250});
+
+        
+            var html_69f5e3a10e396f450a450bb5113adbb9 = $(`<div id="html_69f5e3a10e396f450a450bb5113adbb9" style="width: 100.0%; height: 100.0%;"><b>Pod 39</b><br><a href="cotacoes_hoteis.pdf" target="_blank">Ver cotação completa (PDF)</a></div>`)[0];
+            popup_5728b2b447eaf8729ba4e3143a1d1c3b.setContent(html_69f5e3a10e396f450a450bb5113adbb9);
+        
+
+        marker_26946f8cbf8996edf6ed59cecdd5fe96.bindPopup(popup_5728b2b447eaf8729ba4e3143a1d1c3b)
+        ;
+
+        
+    
+    
+            marker_26946f8cbf8996edf6ed59cecdd5fe96.bindTooltip(
+                `<div>
+                     Pod 39 – 3 estrelas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca1464509281a20c7c20c58ca974d5e2 = L.marker(
+                [40.7401, -74.0021],
+                {}
+            ).addTo(map_3fc3432dbcd9bab868422c7c5092c7c2);
+        
+    
+            var icon_15d3e4d9feb592019ad3d66751e2ed3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ca1464509281a20c7c20c58ca974d5e2.setIcon(icon_15d3e4d9feb592019ad3d66751e2ed3a);
+        
+    
+        var popup_827b34ce68e3f55601d3f7a9fdefe78d = L.popup({"maxWidth": 250});
+
+        
+            var html_dfed22bd9d4457bd589fcc5926028f1d = $(`<div id="html_dfed22bd9d4457bd589fcc5926028f1d" style="width: 100.0%; height: 100.0%;"><b>Hotel 309</b><br><a href="cotacoes_hoteis.pdf" target="_blank">Ver cotação completa (PDF)</a></div>`)[0];
+            popup_827b34ce68e3f55601d3f7a9fdefe78d.setContent(html_dfed22bd9d4457bd589fcc5926028f1d);
+        
+
+        marker_ca1464509281a20c7c20c58ca974d5e2.bindPopup(popup_827b34ce68e3f55601d3f7a9fdefe78d)
+        ;
+
+        
+    
+    
+            marker_ca1464509281a20c7c20c58ca974d5e2.bindTooltip(
+                `<div>
+                     Hotel 309 – 2 estrelas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4aa9489235900ace425dbff3888b17d5 = L.marker(
+                [40.7035, -74.0123],
+                {}
+            ).addTo(map_3fc3432dbcd9bab868422c7c5092c7c2);
+        
+    
+            var icon_54d57642cda0342abe174cf118560616 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4aa9489235900ace425dbff3888b17d5.setIcon(icon_54d57642cda0342abe174cf118560616);
+        
+    
+        var popup_d2b38ecb5823b57fbeee9c3e08f3a338 = L.popup({"maxWidth": 250});
+
+        
+            var html_5cf58ea14186204c6f6f3e680dcff7a6 = $(`<div id="html_5cf58ea14186204c6f6f3e680dcff7a6" style="width: 100.0%; height: 100.0%;"><b>DoubleTree by Hilton New York Downtown</b><br><a href="cotacoes_hoteis.pdf" target="_blank">Ver cotação completa (PDF)</a></div>`)[0];
+            popup_d2b38ecb5823b57fbeee9c3e08f3a338.setContent(html_5cf58ea14186204c6f6f3e680dcff7a6);
+        
+
+        marker_4aa9489235900ace425dbff3888b17d5.bindPopup(popup_d2b38ecb5823b57fbeee9c3e08f3a338)
+        ;
+
+        
+    
+    
+            marker_4aa9489235900ace425dbff3888b17d5.bindTooltip(
+                `<div>
+                     DoubleTree by Hilton New York Downtown – 4 estrelas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_07f3c7efde6da2ce44d5407305e777d8 = L.marker(
+                [40.7625, -73.9827],
+                {}
+            ).addTo(map_3fc3432dbcd9bab868422c7c5092c7c2);
+        
+    
+            var icon_5e3d221a7ad5c79ff179b66927d712a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_07f3c7efde6da2ce44d5407305e777d8.setIcon(icon_5e3d221a7ad5c79ff179b66927d712a8);
+        
+    
+        var popup_83721f2e4d216f38c4b31b1959c60665 = L.popup({"maxWidth": 250});
+
+        
+            var html_d391d2b89339cfcea4b266a3baab77d3 = $(`<div id="html_d391d2b89339cfcea4b266a3baab77d3" style="width: 100.0%; height: 100.0%;"><b>The Manhattan at Times Square</b><br><a href="cotacoes_hoteis.pdf" target="_blank">Ver cotação completa (PDF)</a></div>`)[0];
+            popup_83721f2e4d216f38c4b31b1959c60665.setContent(html_d391d2b89339cfcea4b266a3baab77d3);
+        
+
+        marker_07f3c7efde6da2ce44d5407305e777d8.bindPopup(popup_83721f2e4d216f38c4b31b1959c60665)
+        ;
+
+        
+    
+    
+            marker_07f3c7efde6da2ce44d5407305e777d8.bindTooltip(
+                `<div>
+                     The Manhattan at Times Square – 4 estrelas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93ea838fd4280718f8d52e631a96e2e6 = L.marker(
+                [40.7526, -73.9861],
+                {}
+            ).addTo(map_3fc3432dbcd9bab868422c7c5092c7c2);
+        
+    
+            var icon_b1309aa40620f1b87b22e1e799668bdc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_93ea838fd4280718f8d52e631a96e2e6.setIcon(icon_b1309aa40620f1b87b22e1e799668bdc);
+        
+    
+        var popup_cc8d098b6e9b42d5d3da3789ad1e4ffe = L.popup({"maxWidth": 250});
+
+        
+            var html_119a8f6cad64c73b0ee443a5f2d7d93a = $(`<div id="html_119a8f6cad64c73b0ee443a5f2d7d93a" style="width: 100.0%; height: 100.0%;"><b>Americana Inn</b><br><a href="cotacoes_hoteis.pdf" target="_blank">Ver cotação completa (PDF)</a></div>`)[0];
+            popup_cc8d098b6e9b42d5d3da3789ad1e4ffe.setContent(html_119a8f6cad64c73b0ee443a5f2d7d93a);
+        
+
+        marker_93ea838fd4280718f8d52e631a96e2e6.bindPopup(popup_cc8d098b6e9b42d5d3da3789ad1e4ffe)
+        ;
+
+        
+    
+    
+            marker_93ea838fd4280718f8d52e631a96e2e6.bindTooltip(
+                `<div>
+                     Americana Inn – 2 estrelas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
